@@ -17,7 +17,7 @@ export default function Projects() {
         {
             title:"Portfolio",
             tech:[SiReact,SiNextdotjs,SiTypescript,SiTailwindcss],
-            link:"https://www.amazon.de/-/en/ref=nav_logo",
+            link:"portfoliofatima-c8mspst2o-fatimeyads-projects.vercel.app",
             conver:"/e.png",
             background:"bg-indigo-500"
         },
