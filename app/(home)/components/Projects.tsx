@@ -12,7 +12,7 @@ export default function Projects() {
             tech:[SiReact,SiTypescript,SiTailwindcss],
             link:"https://shopping-bgds.onrender.com",
             conver:"/q.png",
-            background:"bg-orange-500"
+            background:"bg-yellow-500"
         },
         {
             title:"Portfolio",
@@ -32,8 +32,8 @@ export default function Projects() {
             title:" Patient Management",
             tech:[SiReact,SiNextdotjs,SiTypescript,SiTailwindcss],
             link:"https://github.com/FatimEyad/Patienten-",
-            conver:"/logo.png",
-            background:"bg-green-500"
+            conver:"/ppp.png",
+            background:"bg-amber-500"
         },
     ]
   return (
@@ -47,7 +47,7 @@ export default function Projects() {
                     <div className={
                         cn("p-4 rounded-md ",project.background)
                     }>
-                        <DirectionAwareHover imageUrl={project.conver} className='w-full space-y-5 cursor-pointer'>
+                        <DirectionAwareHover imageUrl={project.conver} className='w-full space-y-5 cursor-pointer max-h-60'>
                            <div className="space-y-3">
                            <h1 className='text-2xl font-bold'>{project.title}</h1>
                              <div className="flex items-center gap-5">
