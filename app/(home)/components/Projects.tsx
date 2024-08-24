@@ -29,16 +29,9 @@ export default function Projects() {
             background:"bg-green-500"
         },
         {
-            title:"Dashboard",
-            tech:[SiReact,SiMui,SiTailwindcss],
-            link:"https://www.amazon.de/-/en/ref=nav_logo",
-            conver:"/q.png",
-            background:"bg-red-500"
-        },
-        {
             title:" Patient Management",
             tech:[SiReact,SiNextdotjs,SiTypescript,SiTailwindcss],
-            link:"https://www.amazon.de/-/en/ref=nav_logo",
+            link:"https://github.com/FatimEyad/Patienten-",
             conver:"/logo.png",
             background:"bg-green-500"
         },
