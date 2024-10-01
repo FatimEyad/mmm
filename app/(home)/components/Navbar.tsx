@@ -13,7 +13,7 @@ export default function Navbar({className}:{className?:string}) {
             
         },
         {
-            link: 'https://github.com/FatimEyad',
+            link: 'https://github.com/FatimaAlhamed-code',
             label:'Github',
             Icon:SiGithub,
         },
