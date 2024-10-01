@@ -27,14 +27,7 @@ export default function Projects() {
             link:"https://portfolioo-j0fy.onrender.com/",
             conver:"/t.png",
             background:"bg-green-500"
-        },
-        {
-            title:" Patient Management",
-            tech:[SiReact,SiNextdotjs,SiTypescript,SiTailwindcss],
-            link:"https://github.com/FatimEyad/Patienten-",
-            conver:"/ppp.png",
-            background:"bg-amber-500"
-        },
+        }
     ]
   return (
     <div className='py-10 p-5 sm:p-0'>
